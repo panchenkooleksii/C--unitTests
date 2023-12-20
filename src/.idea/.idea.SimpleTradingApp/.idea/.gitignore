@@ -11,7 +11,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-test/obj
-test/bin
-src/obj
-src/bin
+test/obj/
+test/bin/
+src/obj/
+src/bin/
