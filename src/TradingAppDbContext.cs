@@ -5,8 +5,7 @@ using SimpleTradingApp.Models;
 
 namespace SimpleTradingApp;
 
-internal class TradingAppDbContext : DbContext, IDbContext
-{
+internal class TradingAppDbContext : DbContext
     public DbSet<Trade> Trades { get; init; }
 
     public static TradingAppDbContext Create()
